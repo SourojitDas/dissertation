@@ -1,5 +1,8 @@
+//apply plugin: 'application'
+//apply plugin: 'java'
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'ie.tcd.scss.dasso'
@@ -9,8 +12,18 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
+
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+//    compile project(':library:core')
+//    compile project(':library:rx')
+//    compile project(':library:async')
+//    compile project(':library:sync')
+//
+//    compile 'com.squareup.okhttp:okhttp:2.5.0'
+    compile 'com.github.amatkivskiy:gitter.sdk.rx:1.6.1'
+    compile 'com.github.amatkivskiy:gitter.sdk.async:1.6.1'
+    compile 'com.github.amatkivskiy:gitter.sdk.sync:1.6.1'
 }

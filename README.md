@@ -1,2 +1,2 @@
 # dissertation
-Repo for Dissertation Work
+Unzip the file. Run the code in Python.

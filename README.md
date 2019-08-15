@@ -1,2 +1,2 @@
 # dissertation
-Unzip the file. Run the code in Python.
+Unzip the file. Run the getdata.py file
